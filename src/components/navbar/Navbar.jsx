@@ -11,7 +11,7 @@ class Navbar extends Component {
                 <div className="navbarUp">
                     <div className="navbarUpLeft">
                         <img src={CANLogo} alt="CAN Logo" id="logoCan" />
-                        <h3>CAAN</h3>
+                        <h3>CAN</h3>
                     </div>
 
                     <div className="navbarUpRight">
