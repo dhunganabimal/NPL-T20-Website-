@@ -9,6 +9,7 @@ import one from './components/slidingSection/image1.jpg';
 import two from './components/slidingSection/image2.jpg';
 import three from './components/slidingSection/image3.jpg';
 import four from './components/slidingSection/image4.jpg';
+import Sponsers from "./components/sponsers/Sponsers";
 function App() {
   return (
     <div className="App">
@@ -21,10 +22,8 @@ function App() {
                     <img src={four} />
                 </Carousal>
             </div>
-
-
-
-      <SectionPart />
+        <SectionPart />
+        <Sponsers/>
     </div>
   );
 }

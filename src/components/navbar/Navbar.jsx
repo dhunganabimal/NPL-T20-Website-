@@ -16,9 +16,9 @@ class Navbar extends Component {
 
                     <div className="navbarUpRight">
                         <p>Follow Us</p>
-                        <a className="socialHandles" href="https://x.com/CricketNep"><img src={xLogo} alt="twitter" /></a>
-                        <a className="socialHandles" href="https://www.facebook.com/CricketAssociationOfNepalOfficial.CAN"><img src={fbLogo} alt="facebook" /></a>
-                        <a className="socialHandles" href="https://www.instagram.com/cricketassociationofnepal/"><img src={instaLogo} alt="instagram" /></a>
+                        <a className="socialHandles" href="https://x.com/CricketNep" target="_blank"><img src={xLogo} alt="twitter" /></a>
+                        <a className="socialHandles" href="https://www.facebook.com/CricketAssociationOfNepalOfficial.CAN " target="_blank"><img src={fbLogo} alt="facebook" /></a>
+                        <a className="socialHandles" href="https://www.instagram.com/cricketassociationofnepal/" target="_blank"><img src={instaLogo} alt="instagram" /></a>
                     </div>
                 </div>
                 <div className="navbarDown">
